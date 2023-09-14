@@ -12,3 +12,10 @@ export type TAccount = {
     balance: number,
     type: ACCOUNT_TYPE
 }
+
+export type TProducts = {
+    id: string,
+    name: string,
+    price: number,
+    color: string
+}
